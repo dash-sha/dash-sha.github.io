@@ -18,21 +18,44 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Vrzić Law
+email: dasa@vrzic-law.hr
+tagline: 'Law services with a passion for justice!'
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Vrzić Law services.
+  We provide legal counseling, represent our customers in court and provide
+  helpful advice based on years of experience practicing law in Croatia.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.vrzic-law.hr" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+author:
+  name: 'Daša Vrzić'
+  url: https://www.vrzic-law.hr
+
+paginate: 5
+paginate_path: "page:num"
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  
+# Dependencies
+markdown: kramdown
+highlighter: Rouge
+
+# Permalinks
+permalink: pretty
+# relative_permalinks: true
+
+# Custom vars
+version: 0.1.0
+
+github:
+  repo: https://github.com/dash-sha/dash-sha.github.io/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
