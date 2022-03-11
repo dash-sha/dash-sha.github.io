@@ -1,0 +1,31 @@
+---
+title: Vrzić Law
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: dasa@vrzic-law.hr
+tagline: Law services with a passion for justice!
+description: Vrzić Law services. We provide legal counseling, represent our customers
+  in court and provide helpful advice based on years of experience practicing law
+  in Croatia.
+baseurl: "/"
+url: https://www.vrzic-law.hr
+author:
+  name: Daša Vrzić
+  url: https://www.vrzic-law.hr
+paginate: 5
+paginate_path: page:num
+plugins:
+- jekyll-feed
+- jekyll-paginate
+markdown: kramdown
+highlighter: Rouge
+permalink: pretty
+version: 0.1.0
+github:
+  repo: https://github.com/dash-sha/dash-sha.github.io/
