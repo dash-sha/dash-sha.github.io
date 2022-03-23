@@ -10,17 +10,16 @@ collections:
     output: true
 email: dasa@vrzic-law.hr
 tagline: Legal advice and services
-description: Established in 2020.g., Daša Vrzić law office offers a full range of
+description: Established in 2020, Daša Vrzić law office offers a full range of
   legal advice and services of highest business and professional standards to domestic
-  and international clients, with practice primarily focused on intellectual property
-  law.
+  and international clients, with practice primarily focused on intellectual property law.
 baseurl: "/"
 url: https://www.vrzic-law.hr
 author:
   name: Daša Vrzić
   url: https://www.vrzic-law.hr
 paginate: 5
-paginate_path: page:num
+paginate_path: /articles/page:num
 plugins:
 - jekyll-feed
 - jekyll-paginate

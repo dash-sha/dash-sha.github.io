@@ -25,11 +25,10 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">Source code</a>
-      <span class="sidebar-nav-item">Important legal notice.</span>
+      <!-- <a class="sidebar-nav-item{% if page.url == /articles %} active{% endif %}" href="/articles">Articles</a> -->
+      <!-- <span class="sidebar-nav-item">Important legal notice.</span> -->
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved. <a href="{{ site.github.repo }}">Source.</a></p>
   </div>
 </div>
