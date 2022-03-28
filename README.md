@@ -13,7 +13,7 @@ Install Ruby and start the development server using:
 
 ```bash
 bundle install
-jekyll serve -H 0.0.0.0 --incremental
+jekyll serve -H 0.0.0.0
 ```
 
 Open the development site on <http://localhost:4000>
