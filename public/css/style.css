@@ -22,6 +22,7 @@
 img.mugshot {
     width: 220px; border-radius: 50%;
 }
+.map-container > iframe { max-width: 100%; }
 
 @media screen and (min-width: 768px) {
     .sidebar { padding: 2rem 1rem; }
